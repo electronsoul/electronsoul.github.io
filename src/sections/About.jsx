@@ -2,6 +2,7 @@ import { rotate } from "maath/buffer";
 import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
+import {Frameworks} from "../components/Frameworks";
 
 const About = () => {
   return <section className="c-space section-spacing">
@@ -76,7 +77,19 @@ const About = () => {
           </div>
         </div>
         {/* Grid 5 */}
-        <div className="grid-default-color grid-5"></div>
+        <div className="grid-default-color grid-5">
+        <div className="z-10 w-[50%]">
+            <p className="headText">Teck Stack</p>
+            <p className="subtext">
+              I specialize in a variety of circuits, microcontrollers, and tools that
+              allow me to build robust and scalable embedded and IoT applications
+            </p>
+          </div>
+          <div className="absolute inset-y-0 md:inset-y-9 w-full
+          h-full start-[50%] md:scale-125">
+            <Frameworks />
+          </div>
+        </div>
     </div>
   </section>
 };
