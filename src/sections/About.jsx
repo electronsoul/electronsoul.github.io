@@ -68,7 +68,7 @@ const About = () => {
               </p>
               <CopyEmailButton />
               <img 
-              src="public\assets\cup-meeting.png"
+              src="assets/cup-meeting.png"
               className="absolute inset-y-25 scale-80" />
           </div>
         </div>
