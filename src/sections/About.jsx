@@ -69,7 +69,8 @@ const About = () => {
               <CopyEmailButton />
               <img 
               src="assets/cup-meeting.png"
-              className="absolute inset-y-25 scale-80" />
+              className="absolute md:inset-y-25 md:scale-80 
+              inset-y-0 scale-35" />
           </div>
         </div>
         {/* Grid 5 */}
