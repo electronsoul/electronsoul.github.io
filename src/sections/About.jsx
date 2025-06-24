@@ -69,7 +69,9 @@ const About = () => {
               <CopyEmailButton />
               <img 
               src="assets/cup-meeting.png"
-              className="absolute md:inset-y-25 md:scale-80 
+              className="absolute 
+              lg:inset-y-7 lg:scale-60
+              md:inset-y-25 md:scale-80 
               inset-y-0 scale-35" />
           </div>
         </div>
