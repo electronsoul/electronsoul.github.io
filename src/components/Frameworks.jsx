@@ -2,11 +2,20 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
     const skills = [
-        "auth0",
-        "blazor",
+        "altium",
+        "android",
+        "arduino",
         "cplusplus",
-        "csharp",
-        "css3"
+        "cubemx",
+        "debian",
+        "embeddedc",
+        "espressif",
+        "git",
+        "kicad",
+        "linux",
+        "platformio",
+        "python",
+        "raspberrypi"
     ];
 
     return (
