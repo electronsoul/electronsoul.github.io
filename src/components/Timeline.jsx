@@ -26,10 +26,10 @@ export const Timeline = ({
 
   return (
     <div
-      className="c-space section-spacing"
+      className="c-space section-spacing overflow-hidden"
       ref={containerRef}>
         <h2 className="text-heading"> My Work Experience </h2>
-      <div ref={ref} className="relative pb-20">
+      <div ref={ref} className="relative pb-0">
         {data.map((item, index) => (
             <div key={index} className="flex justify-start pt-10 md:pt-40 md:gap-10">
                 <div
