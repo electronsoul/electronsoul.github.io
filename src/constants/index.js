@@ -1,328 +1,171 @@
 export const myProjects = [
-    {
-      id: 1,
-      title: "E-commerce Platform",
-      description:
-        "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-      subDescription: [
-        "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-        "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-        "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-        "Added payment systems, localization, and product filtering for functionality improvements.",
-      ],
-      href: "",
-      logo: "",
-      image: "/assets/projects/accessories.jpg",
-      tags: [
-        {
-          id: 1,
-          name: "C#",
-          path: "/assets/logos/csharp.svg",
-        },
-        {
-          id: 2,
-          name: ".Net",
-          path: "/assets/logos/dotnet.svg",
-        },
-        {
-          id: 3,
-          name: "Ef Core",
-          path: "/assets/logos/efcore.png",
-        },
-        {
-          id: 4,
-          name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "Authentication & Authorization System",
-      description:
-        "A secure authentication and authorization system using Auth0 for seamless user management.",
-      subDescription: [
-        "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-        "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-        "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-        "Connected to a secure SQLite database for user data storage.",
-      ],
-      href: "",
-      logo: "",
-      image: "/assets/projects/auth-system.jpg",
-      tags: [
-        {
-          id: 1,
-          name: "Auth0",
-          path: "/assets/logos/auth0.svg",
-        },
-        {
-          id: 2,
-          name: "React",
-          path: "/assets/logos/react.svg",
-        },
-        {
-          id: 3,
-          name: "SQLite",
-          path: "/assets/logos/sqlite.svg",
-        },
-        {
-          id: 4,
-          name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Blazor Web App",
-      description:
-        "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-      subDescription: [
-        "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-        "Implemented API interactions using .NET Core for a robust backend.",
-        "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-        "Integrated SQLite for efficient client-side database storage.",
-      ],
-      href: "",
-      logo: "",
-      image: "/assets/projects/blazor-app.jpg",
-      tags: [
-        {
-          id: 1,
-          name: "Blazor",
-          path: "/assets/logos/blazor.svg",
-        },
-        {
-          id: 2,
-          name: ".NET Core",
-          path: "/assets/logos/dotnetcore.svg",
-        },
-        {
-          id: 3,
-          name: "SQLite",
-          path: "/assets/logos/sqlite.svg",
-        },
-        {
-          id: 4,
-          name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "C++ Game Engine",
-      description:
-        "A lightweight C++ game engine designed for 2D and 3D game development.",
-      subDescription: [
-        "Built a powerful rendering engine using OpenGL and C++.",
-        "Developed a physics engine with collision detection and particle effects.",
-        "Implemented a scripting system for easy game customization.",
-        "Optimized performance with multi-threading and efficient memory management.",
-      ],
-      href: "",
-      logo: "",
-      image: "/assets/projects/game-engine.jpg",
-      tags: [
-        {
-          id: 1,
-          name: "C++",
-          path: "/assets/logos/cplusplus.svg",
-        },
-        {
-          id: 2,
-          name: "C#",
-          path: "/assets/logos/csharp.svg",
-        },
-        {
-          id: 3,
-          name: "Git",
-          path: "/assets/logos/git.svg",
-        },
-        {
-          id: 4,
-          name: "Microsoft",
-          path: "/assets/logos/microsoft.svg",
-        },
-      ],
-    },
-    {
-      id: 5,
-      title: "WordPress Custom Theme",
-      description:
-        "A fully customizable WordPress theme optimized for performance and SEO.",
-      subDescription: [
-        "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-        "Integrated Tailwind CSS for modern styling and UI enhancements.",
-        "Optimized SEO and page speed using Vite.js for fast builds.",
-        "Implemented custom widgets and plugin compatibility for extended functionality.",
-      ],
-      href: "",
-      logo: "",
-      image: "/assets/projects/wordpress-theme.jpg",
-      tags: [
-        {
-          id: 1,
-          name: "WordPress",
-          path: "/assets/logos/wordpress.svg",
-        },
-        {
-          id: 2,
-          name: "HTML5",
-          path: "/assets/logos/html5.svg",
-        },
-        {
-          id: 3,
-          name: "CSS3",
-          path: "/assets/logos/css3.svg",
-        },
-        {
-          id: 4,
-          name: "Vite.js",
-          path: "/assets/logos/vitejs.svg",
-        },
-      ],
-    },
-    {
-      id: 6,
-      title: "Online Learning Platform",
-      description:
-        "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-      subDescription: [
-        "Built using Blazor WebAssembly for a seamless SPA experience.",
-        "Implemented video streaming with Azure Media Services.",
-        "Added a quiz system with dynamic question generation and real-time grading.",
-        "Integrated Stripe API for secure payment processing.",
-      ],
-      href: "",
-      logo: "",
-      image: "/assets/projects/elearning.jpg",
-      tags: [
-        {
-          id: 1,
-          name: "Blazor",
-          path: "/assets/logos/blazor.svg",
-        },
-        {
-          id: 2,
-          name: "Azure",
-          path: "/assets/logos/azure.svg",
-        },
-        {
-          id: 3,
-          name: "Stripe",
-          path: "/assets/logos/stripe.svg",
-        },
-        {
-          id: 4,
-          name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
-        },
-      ],
-    },
-  ];
-  
-  export const mySocials = [
-    {
-      name: "WhatsApp",
-      href: "",
-      icon: "/assets/socials/whatsApp.svg",
-    },
-    {
-      name: "Linkedin",
-      href: "https://www.linkedin.com/in/ali-sanati/",
-      icon: "/assets/socials/linkedIn.svg",
-    },
-    {
-      name: "Instagram",
-      href: "https://www.instagram.com/ali.sanatidev/reels/",
-      icon: "/assets/socials/instagram.svg",
-    },
-  ];
-  
-  export const experiences = [
-    {
-      title: "Software Developer",
-      job: "Security & Defense Projects",
-      date: "2021-2023",
-      contents: [
-        "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-        "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-        "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-        "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-        "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-      ],
-    },
-    {
-      title: "Back-End Developer",
-      job: "Car Manufacture",
-      date: "2023-2024",
-      contents: [
-        "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-        "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-        "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-        "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-        "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-      ],
-    },
-    {
-      title: "Freelance Developer",
-      job: "Self-Employed",
-      date: "2025-Present",
-      contents: [
-        "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-        "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-      ],
-    },
-  ];
-  export const reviews = [
-    {
-      name: "Jack",
-      username: "@jack",
-      body: "I've never seen anything like this before. It's amazing. I love it.",
-      img: "https://robohash.org/jack",
-    },
-    {
-      name: "Jill",
-      username: "@jill",
-      body: "I don't know what to say. I'm speechless. This is amazing.",
-      img: "https://robohash.org/jill",
-    },
-    {
-      name: "John",
-      username: "@john",
-      body: "I'm at a loss for words. This is amazing. I love it.",
-      img: "https://robohash.org/john",
-    },
-    {
-      name: "Alice",
-      username: "@alice",
-      body: "This is hands down the best thing I've experienced. Highly recommend!",
-      img: "https://robohash.org/alice",
-    },
-    {
-      name: "Bob",
-      username: "@bob",
-      body: "Incredible work! The attention to detail is phenomenal.",
-      img: "https://robohash.org/bob",
-    },
-    {
-      name: "Charlie",
-      username: "@charlie",
-      body: "This exceeded all my expectations. Absolutely stunning!",
-      img: "https://robohash.org/charlie",
-    },
-    {
-      name: "Dave",
-      username: "@dave",
-      body: "Simply breathtaking. The best decision I've made in a while.",
-      img: "https://robohash.org/dave",
-    },
-    {
-      name: "Eve",
-      username: "@eve",
-      body: "So glad I found this. It has changed the game for me.",
-      img: "https://robohash.org/eve",
-    },
-  ];
+  {
+    id: 1,
+    title: "48V to 12V Buck Converter",
+    description:
+      "Designed a high-efficiency industrial DC-DC converter with EMI compliance and STM32-based dynamic PWM control.",
+    subDescription: [
+      "Synchronous rectification achieving >95% efficiency.",
+      "Multi-stage LC filters and snubbers for EMI mitigation.",
+      "STM32 MCU for load-sensing adaptive control.",
+      "Designed with IPC & EMI compliance, with debug footprints for tuning."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/buck-converter.jpg",
+    tags: [
+      { id: 1, name: "STM32", path: "/assets/logos/stm32.svg" },
+      { id: 2, name: "Altium", path: "/assets/logos/altium.svg" },
+      { id: 3, name: "DC-DC", path: "/assets/logos/power.svg" },
+      { id: 4, name: "EMI", path: "/assets/logos/emi.svg" }
+    ],
+  },
+  {
+    id: 2,
+    title: "Node & Broker IoT System",
+    description:
+      "A distributed wireless IoT architecture with nodes sending encrypted data to a local broker for real-time decisions.",
+    subDescription: [
+      "Designed battery-powered nodes with hydrostatic + environment sensors.",
+      "2.4GHz LoRa nodes pushed payloads to a custom broker with LTE uplink.",
+      "Integrated AES-128 encryption, OTA configuration and SD logging.",
+      "Broker managed local caching & scheduled LTE batch uploads to cloud."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/iot-broker.jpg",
+    tags: [
+      { id: 1, name: "LoRa", path: "/assets/logos/lora.svg" },
+      { id: 2, name: "LTE", path: "/assets/logos/lte.svg" },
+      { id: 3, name: "STM32", path: "/assets/logos/stm32.svg" },
+      { id: 4, name: "AES-128", path: "/assets/logos/security.svg" }
+    ],
+  },
+  {
+    id: 3,
+    title: "LED Matrix Panel Driver",
+    description:
+      "Custom driver hardware & firmware to drive large LED matrices with animation and text graphics.",
+    subDescription: [
+      "Implemented scanline control & brightness correction on STM32.",
+      "Supported chained panels with seamless frame synchronization.",
+      "Designed PCB with constant current sink & thermal optimization.",
+      "Created utility protocol to send frames from external controllers."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/led-matrix.jpg",
+    tags: [
+      { id: 1, name: "STM32", path: "/assets/logos/stm32.svg" },
+      { id: 2, name: "Graphics", path: "/assets/logos/graphics.svg" },
+      { id: 3, name: "PCB", path: "/assets/logos/altium.svg" },
+      { id: 4, name: "LED", path: "/assets/logos/led.svg" }
+    ],
+  },
+  {
+    id: 4,
+    title: "Veloce PMDC Motor Driver",
+    description:
+      "Variable speed driver for PMDC motors with feedback loop and EMI-conscious design.",
+    subDescription: [
+      "Implemented PWM control with soft-start and load compensation.",
+      "Optimized PCB for high-current tracks & thermal spreading.",
+      "Integrated encoder input for closed-loop speed regulation.",
+      "Added analog debug headers for scope diagnosis & calibration."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/veloce-motor.jpg",
+    tags: [
+      { id: 1, name: "PMDC", path: "/assets/logos/motor.svg" },
+      { id: 2, name: "Control", path: "/assets/logos/control.svg" },
+      { id: 3, name: "EMI", path: "/assets/logos/emi.svg" },
+      { id: 4, name: "PWM", path: "/assets/logos/pwm.svg" }
+    ],
+  },
+  {
+    id: 5,
+    title: "12S BMS with Balancing",
+    description:
+      "Battery management system with STM32 monitoring, passive balancing, robust protections & lifecycle event logging.",
+    subDescription: [
+      "Handled over/under voltage, temp, short-circuit, SoC estimation.",
+      "UART/I2C debug interface for calibration & field service.",
+      "Architected analog protection-first with STM32 supervision.",
+      "Designed for modular stackable cells with future scaling."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/bms.jpg",
+    tags: [
+      { id: 1, name: "BMS", path: "/assets/logos/bms.svg" },
+      { id: 2, name: "Power", path: "/assets/logos/power.svg" },
+      { id: 3, name: "UART/I2C", path: "/assets/logos/uart.svg" },
+      { id: 4, name: "STM32", path: "/assets/logos/stm32.svg" }
+    ],
+  }
+];
+
+export const mySocials = [
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/satyam-khanna/",
+    icon: "/assets/socials/linkedIn.svg",
+  },
+  {
+    name: "WhatsApp",
+    href: "",
+    icon: "/assets/socials/whatsApp.svg",
+  },
+];
+
+export const experiences = [
+  {
+    title: "Embedded Hardware Developer",
+    job: "Power Electronics & IoT Systems",
+    date: "2020-2023",
+    contents: [
+      "Designed EMI-optimized DC-DC converters with dynamic PWM control.",
+      "Architected modular BMS systems with logging & balancing.",
+      "Deployed distributed node + broker IoT systems with LoRa & LTE.",
+      "Led multi-layer PCB design for LED drivers & motor control boards."
+    ],
+  },
+  {
+    title: "Freelance Embedded Systems Engineer",
+    job: "Consulting & Product Development",
+    date: "2023-Present",
+    contents: [
+      "Building TwoElectrodes as a brand for scalable embedded + power modules.",
+      "Delivered custom LED drivers, IoT gateways, and Veloce PMDC solutions.",
+      "Advised on EMI compliance, design for certification & field serviceability."
+    ],
+  }
+];
+
+export const reviews = [
+  {
+    name: "Ajay",
+    username: "@ajay",
+    body: "Integrated Satyam’s buck converter in our test benches — stable & clean. Love the design margins.",
+    img: "https://robohash.org/ajay",
+  },
+  {
+    name: "Priya",
+    username: "@priya",
+    body: "The node + broker system cut our field maintenance visits by half. Great engineering detail.",
+    img: "https://robohash.org/priya",
+  },
+  {
+    name: "Raj",
+    username: "@raj",
+    body: "Our battery packs with Satyam’s BMS sailed through stress tests and audits. Impressed.",
+    img: "https://robohash.org/raj",
+  },
+  {
+    name: "Nitin",
+    username: "@nitin",
+    body: "Appreciated the oscilloscope debug points & calibration notes on the Veloce driver.",
+    img: "https://robohash.org/nitin",
+  }
+];

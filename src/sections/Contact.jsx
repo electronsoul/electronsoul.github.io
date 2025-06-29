@@ -1,4 +1,5 @@
 import { useState } from "react"
+import emailjs from "@emailjs/browser"
 
 const Contact = () => {
 
@@ -8,13 +9,33 @@ const Contact = () => {
         message: ""
     })
 
+    const [isLoading, setisLoading] = useState(false)
+
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value})
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async(e) => {
         e.preventDefault();
-        console.log(formData)
+        // console.log(formData)
+        setisLoading(true)
+        try{
+            console.log("Form Submitted: ", formData)
+            await emailjs.send("service_8tupcon", "template_soad2q8", {
+                from_name: formData.name,
+                to_name: "Satyam",
+                from_email: formData.email,
+                to_email: "two.electrodes@gmail.com",
+                message: formData.message
+            }, "Xb_XJIgpZoDzIwJde")
+            setisLoading(false)
+            alert("Sent Successfully 😄")
+            setFormData({name: "", email: "", message: ""})
+        } catch (error) {
+            setisLoading(false)
+            console.log(error)
+            alert("Failed To Send 😕")
+        }
     }
 
     return (
@@ -64,7 +85,7 @@ const Contact = () => {
                             name="message"
                             type="text"
                             className="field-input field-input-focus"
-                            placeholder="Hey Satyam! I have a wonderful idea, lets brainstrom over it" 
+                            placeholder="Hey Satyam! I have a wonderful idea, let's brainstorm over it." 
                             autoComplete="message"
                             rows={4}
                             value={formData.message}
@@ -72,7 +93,9 @@ const Contact = () => {
                             required/>
                     </div>
                     <button type="submit" className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender
-                    to-royal hover-animation"> Send </button>
+                    to-royal hover-animation">
+                        {!isLoading ? "Send" : "Sending..."}
+                    </button>
                 </form>
             </div>
         </section>
