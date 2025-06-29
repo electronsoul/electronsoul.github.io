@@ -77,7 +77,7 @@ const About = () => {
         <div className="grid-default-color grid-5">
         <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
-            <p className="subtext">We work with STM32, ATmega, and PIC microcontrollers, design multi-layer PCBs in Altium, develop control & communication stacks in C/C++, and validate systems with oscilloscope, VNA, and EMI analysis.</p>
+            <p className="subtext">We work with STM32, ATmega, and PIC microcontrollers, design multi-layer PCBs in Altium, develop control & communication stacks in C/C++, and perform EMI analysis.</p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full
           h-full start-[50%] md:scale-125">
