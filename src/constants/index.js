@@ -73,7 +73,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/pmdc-driver.jpg",
+    image: "/assets/projects/pmdc-driver.png",
     tags: [
       { id: 1, name: "STM32", path: "/assets/logos/stm32.svg" },
       { id: 2, name: "PWM", path: "/assets/logos/pwm.svg" },
@@ -94,7 +94,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/flyback.jpg",
+    image: "/assets/projects/flyback.png",
     tags: [
       { id: 1, name: "Flyback", path: "/assets/logos/flyback.svg" },
       { id: 2, name: "STM32", path: "/assets/logos/stm32.svg" },
@@ -104,9 +104,9 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "12S BMS with Balancing",
+    title: "6S BMS with Balancing",
     description:
-      "Battery management system for 12-series lithium packs, featuring analog-first protection and STM32 monitoring with event logs, passive balancing, and field debug interfaces.",
+      "Battery management system for 6-series lithium packs, featuring analog-first protection and STM32 monitoring with event logs, passive balancing, and field debug interfaces.",
     subDescription: [
       "Handled over-voltage, under-voltage, short-circuit, thermal protections.",
       "Implemented passive balancing to maintain cell voltage integrity.",
@@ -115,7 +115,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/bms.jpg",
+    image: "/assets/projects/6s.jpg",
     tags: [
       { id: 1, name: "BMS", path: "/assets/logos/bms.svg" },
       { id: 2, name: "Power", path: "/assets/logos/power.svg" },
@@ -124,7 +124,6 @@ export const myProjects = [
     ],
   }
 ];
-
 
 export const mySocials = [
   {
