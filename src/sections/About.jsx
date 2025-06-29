@@ -6,7 +6,7 @@ import {Frameworks} from "../components/Frameworks";
 
 const About = () => {
   return <section className="c-space section-spacing">
-    <h2 className="text-heading"> Learn More About Me! </h2>
+    <h2 className="text-heading"> ⚡ Under the Hood — In a Flash! </h2>
     <div className="grid grid-cols-1 gap-4 md:grid-cols-6
     md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
@@ -18,11 +18,8 @@ const About = () => {
           lg:scale-[2.5]">
           </img>
           <div className="z-10">
-            <p className="headtext">Hi, I am Satyam</p>
-            <p className="subtext">
-            Over the last 4 years, I developed my firmware and hardware dev
-            skills to deliver highly reliable and scalable embedded & IoT solutions.
-            </p>
+            <p className="headtext">Brief About Us</p>
+            <p className="subtext">Over the last 5 years, we have specialized in embedded hardware and firmware design, building rugged systems for power electronics, IoT, and industrial applications that stand up to real-world demands.</p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none
           -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"/>
@@ -53,7 +50,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in India, and open to remote work worldwide
+              We are based in India, and open to work opportunities worldwide
             </p>
           </div>
           <figure className="absolute left-[30%] top[10%]">
@@ -80,10 +77,7 @@ const About = () => {
         <div className="grid-default-color grid-5">
         <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
-            <p className="subtext">
-              I specialize in a variety of circuits, microcontrollers, and tools that
-              allow me to build robust and scalable embedded and IoT applications
-            </p>
+            <p className="subtext">We work with STM32, ATmega, and PIC microcontrollers, design multi-layer PCBs in Altium, develop control & communication stacks in C/C++, and validate systems with rigorous oscilloscope, VNA, and EMI analysis.</p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full
           h-full start-[50%] md:scale-125">
