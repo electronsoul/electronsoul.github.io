@@ -85,7 +85,7 @@ const Contact = () => {
                             name="message"
                             type="text"
                             className="field-input field-input-focus"
-                            placeholder="Hey Satyam! I have a wonderful idea, let's brainstorm over it." 
+                            placeholder="Hey there! I have a wonderful idea, let's brainstorm over it." 
                             autoComplete="message"
                             rows={4}
                             value={formData.message}

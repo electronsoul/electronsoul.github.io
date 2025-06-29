@@ -13,20 +13,21 @@ const HeroText = () => {
       
       {/* ✅ Desktop View */}
       <div className="hidden md:flex flex-col c-space">
-        <motion.h1 className="text-4xl font-medium"
+        {/* <motion.h1 className="text-4xl font-medium"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1 }}
-        > I am Satyam </motion.h1>
+        > Ambitious  </motion.h1> */}
         <div className="flex flex-col items-start">
             <motion.p className="text-5xl font-medium
-            text-neutral-300"
+            text-neutral-300 flex"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}>
-                A Developer <br /> Dedicated To Crafting</motion.p>
+                We Are Dedicated<br/>
+                To Crafting</motion.p>
             <motion.div
                 variants={variants}
                 initial="hidden"
