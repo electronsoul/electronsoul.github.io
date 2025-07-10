@@ -128,14 +128,14 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/company/two-electrodes/",
+    href: "https://www.linkedin.com/in/skhanna23/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/918630426831",
     icon: "/assets/socials/whatsApp.svg",
-  },
+  }
 ];
 
 export const experiences = [
@@ -175,7 +175,7 @@ export const experiences = [
     job: "Electrofield",
     date: "Feb 2019 - Feb 2020",
     contents: [
-      " Designied a basic motor driver circuit for a PMDC motor, gaining hands-on experience with power stage fundamentals and protection elements.",
+      " Designed a basic motor driver circuit for a PMDC motor, gaining hands-on experience with power stage fundamentals and protection elements.",
       " Contributed to the initial concept and simple hardware layout for a shoe sanitizer device, supporting prototype development and basic validation."
     ],
   }
