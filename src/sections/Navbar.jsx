@@ -4,10 +4,11 @@ import { motion } from "motion/react";
 function Navigation(){
     return (
         <ul className="nav-ul">
+            <li className="nav-li"> <a className="nav-link" href="#home">Back To Home</a> </li>
             <li className="nav-li"> <a className="nav-link" href="#about">About Me!</a> </li>
-            <li className="nav-li"> <a className="nav-link" href="#project">My Projects</a> </li>
+            <li className="nav-li"> <a className="nav-link" href="#projects">My Projects</a> </li>
             <li className="nav-li"> <a className="nav-link" href="#work">My Experience</a> </li>
-            <li className="nav-li"> <a className="nav-link" href="#contact">Contact Me!</a> </li>
+            <li className="nav-li"> <a className="nav-link" href="#contact">Contact Me</a> </li>
         </ul>
     );
 }

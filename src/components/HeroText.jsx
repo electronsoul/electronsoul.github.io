@@ -26,8 +26,9 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}>
-                We Are Dedicated<br/>
-                To Crafting</motion.p>
+                A Designer<br/>
+                On A Mission<br/>
+                To Build</motion.p>
             <motion.div
                 variants={variants}
                 initial="hidden"
@@ -51,7 +52,12 @@ const HeroText = () => {
             variants={variants}
             initial="hidden"
             animate="visible"
-            transition={{ delay: 1.2 }}>We Are Building</motion.p>
+            transition={{ delay: 1.2 }}>
+              A Designer<br/>
+              On A Mission<br/>
+              To Build
+        </motion.p>
+
         <motion.div
             variants={variants}
             initial="hidden"
@@ -59,6 +65,7 @@ const HeroText = () => {
             transition={{ delay: 1.5 }}>
           <FlipWords words={words} className="font-bold text-white text-7xl" />
         </motion.div>
+        
         <motion.p className="text-4xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
