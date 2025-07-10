@@ -135,6 +135,11 @@ export const mySocials = [
     name: "WhatsApp",
     href: "https://wa.me/918630426831",
     icon: "/assets/socials/whatsApp.svg",
+  },
+  {
+    name: "Email",
+    href: "mailto:satyamkhanna66@gmail.com",
+    icon: "/assets/socials/email.svg",
   }
 ];
 

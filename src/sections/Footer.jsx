@@ -10,6 +10,14 @@ const Footer = () => {
             <p>|</p>
             <p>Privacy Policy</p>
         </div>
+
+        <a 
+                class="px-7 py-[7px] outline-none no-underline text-white w-50 h-[32px] rounded-[16px] bg-[#0A66C2] font-sans"
+                href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=skhanna23" 
+                target="_blank">
+                Follow Me On LinkedIn
+        </a>
+
         <div className="flex gap-3">
             {mySocials.map((social, index) => (
                 <a href={social.href} key={index}>

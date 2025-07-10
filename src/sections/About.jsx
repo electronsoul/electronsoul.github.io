@@ -18,8 +18,8 @@ const About = () => {
           lg:scale-[2.5]">
           </img>
           <div className="z-10">
-            <p className="headtext">Brief About Us</p>
-            <p className="subtext">Over the last 5 years, we have specialized in embedded hardware and firmware design, building rugged systems for power electronics, IoT, and industrial applications that stand up to real-world demands.</p>
+            <p className="headtext">Brief About Me</p>
+            <p className="subtext">Over the last few years, I've built good expertise in embedded hardware design, developing rugged systems for Industrial and IoT applications that meet demanding real-world requirements. Having completed multiple internships during my college years and now working full time in this field, I continue to drive high-reliability solutions from concept to deployment.</p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none
           -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"/>
@@ -50,7 +50,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              We are based in India, and open to work opportunities worldwide
+              I am based in India, and open to work opportunities worldwide
             </p>
           </div>
           <figure className="absolute left-[30%] top[10%]">
@@ -75,12 +75,11 @@ const About = () => {
         </div>
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
-        <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
-            <p className="subtext">We work with STM32, ATmega, and PIC microcontrollers, design multi-layer PCBs in Altium, develop control & communication stacks in C/C++, and perform EMI analysis.</p>
+        <div className="flex-col w-[60%] md:w-[55%] items-center justify-between">
+            <p className="headText sm:py-5">Teck Stack</p>
+            <p className="subtext">Focused on hardware design, schematics, high-speed layout, and signal integrity for rugged IoT and various industrial systems. Hands-on with using Altium Designer and incorporating various pheripherals for control and communication.</p>
           </div>
-          <div className="absolute inset-y-0 md:inset-y-9 w-full
-          h-full start-[50%] md:scale-125">
+          <div className="scale-75 md:scale-125 absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%]">
             <Frameworks />
           </div>
         </div>
