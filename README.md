@@ -1,4 +1,4 @@
-# TwoElectrodes Portfolio 🚀
+# Satyam's Portfolio 🚀
 
 This is my personal portfolio website built with **React**, **Tailwind CSS**, and **Vite**, hosted on **GitHub Pages** via Render for full deployment.
 
