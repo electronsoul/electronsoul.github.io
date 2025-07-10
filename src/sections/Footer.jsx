@@ -18,7 +18,7 @@ const Footer = () => {
                 </a>
             ))}
         </div>
-        <p>© 2025 Two Electrodes</p>
+        <p>© 2025 Satyam Khanna</p>
         <p>All rights reserved</p>
     </section>
   )

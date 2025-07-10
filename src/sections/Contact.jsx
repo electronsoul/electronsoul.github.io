@@ -46,8 +46,8 @@ const Contact = () => {
                         Let's Connect Further
                     </h2>
                     <p className="font-normal text-neutral-400">
-                        Whether you're loking to build your next embedded device, improve an existing one, or bring a unique project to life, 
-                        I'm here to help
+                    If my profile aligns with the kind of embedded hardware expertise you're seeking, I'd be glad to connect 
+                    and explore how I could contribute to your team.
                     </p>
                 </div>
                 

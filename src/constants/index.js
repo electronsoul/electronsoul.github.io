@@ -140,24 +140,43 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Embedded Hardware Developer",
-    job: "Power Electronics & IoT Systems",
-    date: "2020-2023",
+    title: "Full Time: Senior IoT Engineer",
+    job: "Vylt Technologies",
+    date: "Jun 2024 - Present",
     contents: [
-      "Designed EMI-optimized DC-DC converters with dynamic PWM control.",
-      "Architected modular BMS systems with logging & balancing.",
+      "Designed modular, stackable PCB architectures for IoT devices, enabling flexible hardware expansion and streamlined integration of sensor, communication, and power modules.",
+      "Developed end-to-end electronics concepts from functional block diagrams to detailed schematics and multi-layer PCB layouts, ensuring robust signal integrity and EMI performance. ",
       "Deployed distributed node + broker IoT systems with LoRa & LTE.",
-      "Led multi-layer PCB design for LED drivers & motor control boards."
+      "Created 3D CAD models for custom enclosures, aligning mechanical constraints with thermal, antenna placement, and serviceability considerations."
     ],
   },
   {
-    title: "Freelance Embedded Systems Engineer",
-    job: "Consulting & Product Development",
-    date: "2023-Present",
+    title: "Internship: Embedded Engineer",
+    job: "Otomator Technologies",
+    date: "Feb 2022 - Dec 2022",
     contents: [
-      "Building TwoElectrodes as a brand for scalable embedded + power modules.",
-      "Delivered custom LED drivers, IoT gateways, and Veloce PMDC solutions.",
-      "Advised on EMI compliance, design for certification & field serviceability."
+      "Developed PCB designs for IoT stack modules, ensuring alignment with system architecture and scalability requirements.",
+      "Analyzed new hardware feature requests and prepared detailed technical documentation to capture specifications and implementation plans.",
+      "Implemented circuit and layout updates for evolving IoT designs, and participated in design reviews to troubleshoot and resolve hardware issues."
+    ],
+  },
+  {
+    title: "Internship: PCB Designer",
+    job: "Bipolar Factory",
+    date: "Jul 2021 - Oct 2021",
+    contents: [
+      "Designed the PCB for a network aggregator leveraging a CM4 carrier architecture, integrating high-speed Ethernet and USB interfaces for seamless data throughput.",
+      "Optimized multi-layer routing, impedance control, and power distribution on the CM4 carrier board to ensure robust performance and scalability.",
+      "Collaborated with firmware teams to validate hardware bring-up, supporting rapid prototyping and deployment of the aggregator system."
+    ],
+  },
+  {
+    title: "Internship: Product Designer",
+    job: "Electrofield",
+    date: "Feb 2019 - Feb 2020",
+    contents: [
+      " Designied a basic motor driver circuit for a PMDC motor, gaining hands-on experience with power stage fundamentals and protection elements.",
+      " Contributed to the initial concept and simple hardware layout for a shoe sanitizer device, supporting prototype development and basic validation."
     ],
   }
 ];
