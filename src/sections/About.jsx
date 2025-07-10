@@ -5,7 +5,7 @@ import CopyEmailButton from "../components/CopyEmailButton";
 import {Frameworks} from "../components/Frameworks";
 
 const About = () => {
-  return <section className="c-space section-spacing">
+  return <section className="c-space section-spacing" id="about">
     <h2 className="text-heading"> ⚡ Under the Hood — In a Flash! </h2>
     <div className="grid grid-cols-1 gap-4 md:grid-cols-6
     md:auto-rows-[18rem] mt-12">
@@ -13,7 +13,7 @@ const About = () => {
         <div className="flex items-end grid-default-color grid-1">
           <img 
           src="assets/coding-pov.png"
-          className="absolute scale-[1.75] -right=[5rem] 
+          className="absolute scale-[1.75] -right-[5rem] 
           -top-[1rem] md:scale-[3] md:left-50 md:inset-y-0
           lg:scale-[2.5]">
           </img>
@@ -77,7 +77,7 @@ const About = () => {
         <div className="grid-default-color grid-5">
         <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
-            <p className="subtext">We work with STM32, ATmega, and PIC microcontrollers, design multi-layer PCBs in Altium, develop control & communication stacks in C/C++, and validate systems with rigorous oscilloscope, VNA, and EMI analysis.</p>
+            <p className="subtext">We work with STM32, ATmega, and PIC microcontrollers, design multi-layer PCBs in Altium, develop control & communication stacks in C/C++, and perform EMI analysis.</p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full
           h-full start-[50%] md:scale-125">

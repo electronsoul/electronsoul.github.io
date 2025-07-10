@@ -15,7 +15,7 @@ const Hero = () => {
         <section className="flex items-start
         justify-center md:items-start
         md:justify-start min-h-screen 
-        overflow-hidden c-space">
+        overflow-hidden c-space" id="home">
             <HeroText />
             <ParrllaxBackground />
             <figure

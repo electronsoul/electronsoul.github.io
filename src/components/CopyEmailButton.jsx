@@ -3,7 +3,7 @@ import { useState } from "react"
 const CopyEmailButton = () => {
 
     const [copied, setCopied] = useState(false);
-    const email = "satyamkhanna66@gmail.com"
+    const email = "two.electrodes@gmail.com"
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(email);

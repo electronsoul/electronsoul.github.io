@@ -47,16 +47,11 @@ const HeroText = () => {
 
       {/* ✅ Mobile View */}
       <div className="flex flex-col gap-y-6 md:hidden">
-        <motion.p className="text-4xl font-medium"
+        <motion.p className="mt-10 text-5xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
-            transition={{ delay: 1 }}>Hi, I am Satyam</motion.p>
-        <motion.p className="text-5xl font-black text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.2 }}>Building</motion.p>
+            transition={{ delay: 1.2 }}>We Are Building</motion.p>
         <motion.div
             variants={variants}
             initial="hidden"

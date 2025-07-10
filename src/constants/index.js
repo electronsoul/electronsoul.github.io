@@ -1,102 +1,121 @@
 export const myProjects = [
   {
     id: 1,
-    title: "48V to 12V Buck Converter",
+    title: "LED Matrix Panel Driver (RP2040)",
     description:
-      "Designed a high-efficiency industrial DC-DC converter with EMI compliance and STM32-based dynamic PWM control.",
+      "Developed a high-performance LED matrix panel driver using RP2040 microcontroller, enabling animated graphics and seamless multi-panel chaining.",
     subDescription: [
-      "Synchronous rectification achieving >95% efficiency.",
-      "Multi-stage LC filters and snubbers for EMI mitigation.",
-      "STM32 MCU for load-sensing adaptive control.",
-      "Designed with IPC & EMI compliance, with debug footprints for tuning."
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/buck-converter.jpg",
-    tags: [
-      { id: 1, name: "STM32", path: "/assets/logos/stm32.svg" },
-      { id: 2, name: "Altium", path: "/assets/logos/altium.svg" },
-      { id: 3, name: "DC-DC", path: "/assets/logos/power.svg" },
-      { id: 4, name: "EMI", path: "/assets/logos/emi.svg" }
-    ],
-  },
-  {
-    id: 2,
-    title: "Node & Broker IoT System",
-    description:
-      "A distributed wireless IoT architecture with nodes sending encrypted data to a local broker for real-time decisions.",
-    subDescription: [
-      "Designed battery-powered nodes with hydrostatic + environment sensors.",
-      "2.4GHz LoRa nodes pushed payloads to a custom broker with LTE uplink.",
-      "Integrated AES-128 encryption, OTA configuration and SD logging.",
-      "Broker managed local caching & scheduled LTE batch uploads to cloud."
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/iot-broker.jpg",
-    tags: [
-      { id: 1, name: "LoRa", path: "/assets/logos/lora.svg" },
-      { id: 2, name: "LTE", path: "/assets/logos/lte.svg" },
-      { id: 3, name: "STM32", path: "/assets/logos/stm32.svg" },
-      { id: 4, name: "AES-128", path: "/assets/logos/security.svg" }
-    ],
-  },
-  {
-    id: 3,
-    title: "LED Matrix Panel Driver",
-    description:
-      "Custom driver hardware & firmware to drive large LED matrices with animation and text graphics.",
-    subDescription: [
-      "Implemented scanline control & brightness correction on STM32.",
-      "Supported chained panels with seamless frame synchronization.",
-      "Designed PCB with constant current sink & thermal optimization.",
-      "Created utility protocol to send frames from external controllers."
+      "Implemented scanline multiplexing with dynamic PWM brightness correction on dual M0+ cores.",
+      "Supported cascading multiple LED panels for extended displays with perfect frame sync.",
+      "Designed compact PCB with constant current drivers and thermal considerations.",
+      "Created a protocol to receive pixel data over SPI/I2C from upstream controllers."
     ],
     href: "",
     logo: "",
     image: "/assets/projects/led-matrix.jpg",
     tags: [
+      { id: 1, name: "RP2040", path: "/assets/logos/raspberrypi.svg" },
+      { id: 2, name: "Vscode", path: "/assets/logos/visualstudiocode.svg" },
+      { id: 3, name: "PCB", path: "/assets/logos/altium.svg" }
+    ],
+  },
+  {
+    id: 2,
+    title: "IO Board — STM32 Based Industrial Controller",
+    description:
+      "A modular STM32 development board designed with robust relay outputs, surge-protected inputs, and onboard Ethernet connectivity for industrial control & monitoring.",
+    subDescription: [
+      "Integrated multiple digital inputs with MOVs & opto-isolation for surge and ESD immunity.",
+      "Equipped with relay outputs rated for industrial loads with status feedback.",
+      "Included 10/100 Ethernet PHY for web dashboard / Modbus TCP experiments.",
+      "Designed to serve as a scalable platform for various power and sensor modules."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/io-board.jpg",
+    tags: [
       { id: 1, name: "STM32", path: "/assets/logos/stm32.svg" },
-      { id: 2, name: "Graphics", path: "/assets/logos/graphics.svg" },
-      { id: 3, name: "PCB", path: "/assets/logos/altium.svg" },
-      { id: 4, name: "LED", path: "/assets/logos/led.svg" }
+      { id: 2, name: "TCPIP", path: "/assets/logos/tcpip.svg" },
+      { id: 3, name: "Vscode", path: "/assets/logos/visualstudiocode.svg" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Veloce — CM4 Network Aggregator",
+    description:
+      "A carrier board and system built around Raspberry Pi Compute Module 4, aggregating multiple USB LTE/4G dongles and Ethernet for combined high-speed uplinks, running OpenWRT.",
+    subDescription: [
+      "Designed to host up to 4 USB dongles for concurrent LTE connectivity.",
+      "Included onboard gigabit Ethernet and SD card interface for OpenWRT storage.",
+      "Optimized power distribution and protection for simultaneous modem loads.",
+      "Developed OpenWRT build with mwan3 for multi-link aggregation and failover."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/veloce.jpg",
+    tags: [
+      { id: 1, name: "CM4", path: "/assets/logos/cm4.svg" },
+      { id: 2, name: "LTE", path: "/assets/logos/lte.svg" },
+      { id: 3, name: "Ethernet", path: "/assets/logos/ethernet.svg" },
+      { id: 4, name: "OpenWRT", path: "/assets/logos/openwrt.svg" }
     ],
   },
   {
     id: 4,
-    title: "Veloce PMDC Motor Driver",
+    title: "PMDC Motor Speed Controller",
     description:
-      "Variable speed driver for PMDC motors with feedback loop and EMI-conscious design.",
+      "Developed an STM32-based driver for precise speed control of PMDC motors, featuring feedback stabilization and protection for industrial applications.",
     subDescription: [
-      "Implemented PWM control with soft-start and load compensation.",
-      "Optimized PCB for high-current tracks & thermal spreading.",
-      "Integrated encoder input for closed-loop speed regulation.",
-      "Added analog debug headers for scope diagnosis & calibration."
+      "Implemented PWM modulation with soft-start, torque curve compensation, and stall detection.",
+      "Integrated frequency feedback from hall/optical encoders for closed-loop speed stabilization.",
+      "Optimized for low ripple and minimal EMI with spread-spectrum switching.",
+      "Provided analog debug headers for field calibration and oscilloscope monitoring."
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/veloce-motor.jpg",
+    image: "/assets/projects/pmdc-driver.png",
     tags: [
-      { id: 1, name: "PMDC", path: "/assets/logos/motor.svg" },
-      { id: 2, name: "Control", path: "/assets/logos/control.svg" },
-      { id: 3, name: "EMI", path: "/assets/logos/emi.svg" },
-      { id: 4, name: "PWM", path: "/assets/logos/pwm.svg" }
+      { id: 1, name: "STM32", path: "/assets/logos/stm32.svg" },
+      { id: 2, name: "PWM", path: "/assets/logos/pwm.svg" },
+      { id: 3, name: "Motor Control", path: "/assets/logos/motor.svg" },
+      { id: 4, name: "EMI", path: "/assets/logos/emi.svg" }
     ],
   },
   {
     id: 5,
-    title: "12S BMS with Balancing",
+    title: "Flyback SMPS (STM32 Controlled DCM)",
     description:
-      "Battery management system with STM32 monitoring, passive balancing, robust protections & lifecycle event logging.",
+      "Designed a flyback converter operating in Discontinuous Conduction Mode (DCM), with custom STM32 firmware for primary-side control, suitable for isolated low power applications.",
     subDescription: [
-      "Handled over/under voltage, temp, short-circuit, SoC estimation.",
-      "UART/I2C debug interface for calibration & field service.",
-      "Architected analog protection-first with STM32 supervision.",
-      "Designed for modular stackable cells with future scaling."
+      "Implemented variable frequency and peak current control on STM32 timer + ADC.",
+      "Added soft start, short circuit protection, and dynamic load response tuning.",
+      "PCB optimized for low EMI and creepage/clearance compliant with industrial standards.",
+      "Prototyped with isolated feedback for stable output across wide load conditions."
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/bms.jpg",
+    image: "/assets/projects/flyback.png",
+    tags: [
+      { id: 1, name: "Flyback", path: "/assets/logos/flyback.svg" },
+      { id: 2, name: "STM32", path: "/assets/logos/stm32.svg" },
+      { id: 3, name: "DCM", path: "/assets/logos/dcm.svg" },
+      { id: 4, name: "Power", path: "/assets/logos/power.svg" }
+    ],
+  },
+  {
+    id: 6,
+    title: "6S BMS with Balancing",
+    description:
+      "Battery management system for 6-series lithium packs, featuring analog-first protection and STM32 monitoring with event logs, passive balancing, and field debug interfaces.",
+    subDescription: [
+      "Handled over-voltage, under-voltage, short-circuit, thermal protections.",
+      "Implemented passive balancing to maintain cell voltage integrity.",
+      "Integrated UART/I2C interfaces for debug + calibration, with event/fault logging.",
+      "Designed as a stackable system for scalable energy storage applications."
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/6s.jpg",
     tags: [
       { id: 1, name: "BMS", path: "/assets/logos/bms.svg" },
       { id: 2, name: "Power", path: "/assets/logos/power.svg" },
@@ -109,7 +128,7 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/satyam-khanna/",
+    href: "https://www.linkedin.com/company/two-electrodes/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
