@@ -26,9 +26,8 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}>
-                A Designer<br/>
-                On A Mission<br/>
-                To Build</motion.p>
+                Hi, I'm Satyam — a hardware designer<br/>
+                crafting solutions that are</motion.p>
             <motion.div
                 variants={variants}
                 initial="hidden"
@@ -53,9 +52,9 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}>
-              A Designer<br/>
-              On A Mission<br/>
-              To Build
+              Hi, I'm Satyam<br/>
+              hardware designer<br/>
+              building
         </motion.p>
 
         <motion.div
