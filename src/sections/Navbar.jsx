@@ -1,21 +1,26 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function Navigation(){
     return (
         <ul className="nav-ul">
-            <li className="nav-li"> <a className="nav-link" href="#home">Back To Home</a> </li>
-            <li className="nav-li"> <a className="nav-link" href="#about">About Me!</a> </li>
-            <li className="nav-li"> <a className="nav-link" href="#projects">My Projects</a> </li>
-            <li className="nav-li"> <a className="nav-link" href="#work">My Experience</a> </li>
-            <li className="nav-li"> <a className="nav-link" href="#contact">Contact Me</a> </li>
-            <li className="nav-li"> <a className="nav-link" href="#about">Blog</a> </li>
+            <li className="nav-li"><Link className="nav-link" to="/">Home</Link></li>
+            <li className="nav-li"><Link className="nav-link" to="/#about">About Me!</Link></li>
+            <li className="nav-li"><Link className="nav-link" to="/#projects">My Projects</Link></li>
+            <li className="nav-li"><Link className="nav-link" to="/#work">My Experience</Link></li>
+            <li className="nav-li"><Link className="nav-link" to="/#contact">Contact Me</Link></li>
+            <li className="nav-li"><Link className="nav-link" to="/blog">Blog</Link></li>
         </ul>
     );
 }
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    
+    const location = useLocation();
+    const isBlogPage = location.pathname.startsWith("/blog");
 
     return (
 
@@ -27,7 +32,7 @@ const Navbar = () => {
                         className="text-2xl font-extrabold transition-colors
                         text-neutral-400 hover:text-white 
                         hidden md:block justify-start"> 
-                        My Portfolio 
+                        {isBlogPage ? "My Blogs" : "My Portfolio"}
                     </a>
 
                     <button
