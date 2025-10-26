@@ -145,7 +145,7 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Full Time: Senior IoT Engineer",
+    title: "Senior IoT Engineer",
     job: "Vylt Technologies",
     date: "Jun 2024 - Present",
     contents: [
@@ -156,7 +156,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Full Time: Hardware Design Engineer",
+    title: "Hardware Design Engineer",
     job: "VVDN Technologies",
     date: "Nov 2023 - Jun 2024",
     contents: [
@@ -166,7 +166,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Full Time: Embedded Engineer",
+    title: "Embedded Engineer",
     job: "VRSIIS",
     date: "Dec 2022 - Oct 2023",
     contents: [
