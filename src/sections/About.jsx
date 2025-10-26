@@ -19,7 +19,7 @@ const About = () => {
           </img>
           <div className="z-10">
             <p className="headtext">Brief About Me</p>
-            <p className="subtext">Over the last few years, I've built good expertise in embedded hardware design, developing rugged systems for Industrial and IoT applications that meet demanding real-world requirements. Having completed multiple internships during my college years and now working full time in this field, I continue to drive high-reliability solutions from concept to deployment.</p>
+            <p className="subtext">Embedded Hardware Engineer specializing in Industrial IoT, multilayer PCB design and hardware validation. Experienced in implementing microcontrollers including ATMega, PIC, STM32, Nordic, and ESP32, EMI/ESD-compliant layouts, and industrial automation devices. Proven record of reducing design cycles, cutting BOM costs, and delivering multiple IoT devices into production. Skilled in troubleshooting, cross-functional collaboration, and creating scalable embedded solutions with a strong can-do attitude.</p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none
           -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"/>

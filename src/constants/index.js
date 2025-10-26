@@ -133,7 +133,7 @@ export const mySocials = [
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/918630426831",
+    href: "https://wa.me/919105753491",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
@@ -149,10 +149,30 @@ export const experiences = [
     job: "Vylt Technologies",
     date: "Jun 2024 - Present",
     contents: [
-      "Designed modular, stackable PCB architectures for IoT devices, enabling flexible hardware expansion and streamlined integration of sensor, communication, and power modules.",
-      "Developed end-to-end electronics concepts from functional block diagrams to detailed schematics and multi-layer PCB layouts, ensuring robust signal integrity and EMI performance. ",
-      "Deployed distributed node + broker IoT systems with LoRa & LTE.",
-      "Created 3D CAD models for custom enclosures, aligning mechanical constraints with thermal, antenna placement, and serviceability considerations."
+      "Designed modular multi-layer PCBs for industrial IoT devices in automation and supply chain tracking, reducing redesign iterations by 25% and accelerating time-to-market.",
+      "Engineered remote MHE monitoring devices with IoT sensors that improved operator productivity tracking and provided real-time cloud visibility, boosting efficiency by over 80%.",
+      "Delivered complete product stacks from architecture to schematic, PCB layout, enclosure CAD, and field validation, shortening prototype-to-deployment cycles by 35%.",
+      "Adopted Git-based version control and Agile Scrum methods to streamline design handoffs and cross-team collaboration."
+    ],
+  },
+  {
+    title: "Full Time: Hardware Design Engineer",
+    job: "VVDN Technologies",
+    date: "Nov 2023 - Jun 2024",
+    contents: [
+      "Contributed to schematic design, PCB layout review, and troubleshooting of electronic circuits and embedded hardware.",
+      "Executed board bringup and diagnostics on 5+ prototypes, achieving functional validation within 2 weeks and enabling pilot production on schedule.",
+      "Prepared documentation and assembled 4+ prototype boards, ensuring smooth transfer from prototyping to production."
+    ],
+  },
+  {
+    title: "Full Time: Embedded Engineer",
+    job: "VRSIIS",
+    date: "Dec 2022 - Oct 2023",
+    contents: [
+      "Redesigned a 2-layer PCB into a 4-layer EMI/ESD-compliant board, improving signal integrity and reducing noise by 30%, enhancing industrial monitoring reliability.",
+      "Optimized component selection and placement to cut BOM cost by 15% while maintaining regulatory compliance.",
+      "Performed board bringup and validation, achieving first-pass success across 3 hardware designs."
     ],
   },
   {
@@ -160,28 +180,8 @@ export const experiences = [
     job: "Otomator Technologies",
     date: "Feb 2022 - Dec 2022",
     contents: [
-      "Developed PCB designs for IoT stack modules, ensuring alignment with system architecture and scalability requirements.",
-      "Analyzed new hardware feature requests and prepared detailed technical documentation to capture specifications and implementation plans.",
-      "Implemented circuit and layout updates for evolving IoT designs, and participated in design reviews to troubleshoot and resolve hardware issues."
-    ],
-  },
-  {
-    title: "Internship: PCB Designer",
-    job: "Bipolar Factory",
-    date: "Jul 2021 - Oct 2021",
-    contents: [
-      "Designed the PCB for a network aggregator leveraging a CM4 carrier architecture, integrating high-speed Ethernet and USB interfaces for seamless data throughput.",
-      "Optimized multi-layer routing, impedance control, and power distribution on the CM4 carrier board to ensure robust performance and scalability.",
-      "Collaborated with firmware teams to validate hardware bring-up, supporting rapid prototyping and deployment of the aggregator system."
-    ],
-  },
-  {
-    title: "Internship: Product Designer",
-    job: "Electrofield",
-    date: "Feb 2019 - Feb 2020",
-    contents: [
-      " Designed a basic motor driver circuit for a PMDC motor, gaining hands-on experience with power stage fundamentals and protection elements.",
-      " Contributed to the initial concept and simple hardware layout for a shoe sanitizer device, supporting prototype development and basic validation."
+      "Created stackable IoT PCB modules with modular buses, deployed in 4 commercial projects, increasing scalability and reducing integration effort by 20%.",
+      "Produced design documentation and architecture diagrams that shortened design review cycles by 25%."
     ],
   }
 ];
